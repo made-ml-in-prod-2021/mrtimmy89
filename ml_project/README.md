@@ -52,14 +52,10 @@ pylint --output-format=colorized -v src
 <br>
 <br>
 
-|  |  |
-| -------------------------------------- | --------------------------------------- |
-| ├── README.md | [plugins/dropbox/README.md][PlDb] |
-| │ |  |
-| ├── requirements.txt | [plugins/googledrive/README.md][PlGd] |
-| │ |  |
-| Medium | [plugins/medium/README.md][PlMe] |
-| │ |  |
+> ├── README.md  [plugins/dropbox/README.md][PlDb] 
+> │
+> ├── requirements.txt | [plugins/googledrive/README.md][PlGd] |
+> │ 
 
 <br>
 <br>

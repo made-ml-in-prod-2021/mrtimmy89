@@ -23,7 +23,7 @@ train: python train_pipeline.py configs/train_config.yaml
 predict: python predict_pipeline.py config/predict_config.yaml
 <br>
 <br>
-## PEP-8 testing:
+## PEP 8 testing:
 
 pylint --output-format=colorized -v src
 <br>

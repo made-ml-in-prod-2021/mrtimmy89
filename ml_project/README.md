@@ -51,48 +51,49 @@ pylint --output-format=colorized -v src
 По предложенной разбалловке получилось 29 баллов. Надеюсь, нигде не ошибся.
 <br>
 <br>
-Project structure
-<br><t>│
-<br><t>├── README.md             <- The top-level README for developers using this project.
-<br><t>│
-<br><t>├── requirements.txt      <- The requirements file for reproducing the analysis environment.
-<br><t>│
-<br><t>├── setup.py              <- File for install
-<br><t>│
->├── data_generator.py  	  <- File for creating a synthetic dataset for test│
->│
->├── trani_pipeline.py     <- File for train_pipeline
->│
->├── predict_pipeline.py   <- File for predict pipeline
->│
->├── setup.py              <- File for install
->│
->├── configs               <- Configuration files.
->│
->├── docs                  <- A default Sphinx project
->│
->├── data
->│	│
->│   └── raw               <- The original, immutable data dump.
->│
->├── models                <- Trained and serialized models.
->│
->├── notebooks             <- Jupyter notebooks.
->│
->├── predictions           <- Outputs from predict pipeline.
->│
->├── reports               <- Report from training model.
->│
->├── src                   <- Source code for use in this project.
->│	│
->│   ├── __init__.py       <- Makes src a Python module
->│   │
->│   ├── entities          <- configuration dataclasses for type checking
->│   │
->│   ├── data              <- code to generate and transform data
->│	│
->│   ├── features          <- code to work with features
->│   │
->│   └── models            <- code to work with models
->│
->└── tests                 <- unit tests
+|Project structure
+|--------------------------|------------------------------------------------------------|
+|│||
+|├── README.md|             <- The top-level README for developers using this project.|
+|│||
+|├── requirements.txt|      <- The requirements file for reproducing the analysis environment.|
+|│
+|├── setup.py              <- File for install
+|│
+|├─ data_generator.py  	  <- File for creating a synthetic dataset for test│
+|│
+|├── trani_pipeline.py     <- File for train_pipeline
+|│
+|├── predict_pipeline.py   <- File for predict pipeline
+|│
+|├── setup.py              <- File for install
+|│
+|├── configs               <- Configuration files.
+|│
+|├── docs                  <- A default Sphinx project
+|│
+|├── data
+|│	│
+|│   └── raw               <- The original, immutable data dump.
+|│
+|├── models                <- Trained and serialized models.
+|│
+|├── notebooks             <- Jupyter notebooks.
+|│
+|├── predictions           <- Outputs from predict pipeline.
+|│
+|├── reports               <- Report from training model.
+|│
+|├── src                   <- Source code for use in this project.
+|│	│
+|│   ├── __init__.py       <- Makes src a Python module
+|│   │
+|│   ├── entities          <- configuration dataclasses for type checking
+|│   │
+|│   ├── data              <- code to generate and transform data
+|│	│
+|│   ├── features          <- code to work with features
+|│   │
+|│   └── models            <- code to work with models
+||
+|└── tests                 <- unit tests

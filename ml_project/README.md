@@ -51,8 +51,6 @@ pylint --output-format=colorized -v src
 По предложенной разбалловке получилось 29 баллов. Надеюсь, нигде не ошибся.
 <br>
 <br>
-## Project structure
-<br>
 | Plugin | README |
 | ------ | ------ |
 | Dropbox | [plugins/dropbox/README.md][PlDb] |

@@ -60,7 +60,7 @@ pylint --output-format=colorized -v src
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
-
+<br>
 
 ├── README.md             <- The top-level README for developers using this project.
 │

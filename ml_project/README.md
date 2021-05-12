@@ -51,7 +51,8 @@ pylint --output-format=colorized -v src
 По предложенной разбалловке получилось 29 баллов. Надеюсь, нигде не ошибся.
 <br>
 <br>
-|Project structure
+## Project structure
+|||
 |--------------------------|------------------------------------------------------------|
 |│||
 |├── README.md|             <- The top-level README for developers using this project.|

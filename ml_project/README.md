@@ -48,51 +48,51 @@ pylint --output-format=colorized -v src
 |15.|Самооценка / самокопание / самоанализ|+1|
 <br>
 <br>
-По предложенной разбалловке получилось _29 баллов. Надеюсь, нигде не ошибся.
+По предложенной разбалловке получилось 29 баллов. Надеюсь, нигде не ошибся.
 <br>
 <br>
 Project structure
-│
-├── README.md             <- The top-level README for developers using this project.
-│
-├── requirements.txt      <- The requirements file for reproducing the analysis environment.
-│
-├── setup.py              <- File for install
-│
-├── data_generator.py  	  <- File for creating a synthetic dataset for test│
-│
-├── trani_pipeline.py     <- File for train_pipeline
-│
-├── predict_pipeline.py   <- File for predict pipeline
-│
-├── setup.py              <- File for install
-│
-├── configs               <- Configuration files.
-│
-├── docs                  <- A default Sphinx project
-│
-├── data
-│	│
-│   └── raw               <- The original, immutable data dump.
-│
-├── models                <- Trained and serialized models.
-│
-├── notebooks             <- Jupyter notebooks.
-│
-├── predictions           <- Outputs from predict pipeline.
-│
-├── reports               <- Report from training model.
-│
-├── src                   <- Source code for use in this project.
-│	│
-│   ├── __init__.py       <- Makes src a Python module
-│   │
-│   ├── entities          <- configuration dataclasses for type checking
-│   │
-│   ├── data              <- code to generate and transform data
-│	│
-│   ├── features          <- code to work with features
-│   │
-│   └── models            <- code to work with models
-│
-└── tests                 <- unit tests
+>│
+>├── README.md             <- The top-level README for developers using this project.
+>│
+>├── requirements.txt      <- The requirements file for reproducing the analysis environment.
+>│
+>├── setup.py              <- File for install
+>│
+>├── data_generator.py  	  <- File for creating a synthetic dataset for test│
+>│
+>├── trani_pipeline.py     <- File for train_pipeline
+>│
+>├── predict_pipeline.py   <- File for predict pipeline
+>│
+>├── setup.py              <- File for install
+>│
+>├── configs               <- Configuration files.
+>│
+>├── docs                  <- A default Sphinx project
+>│
+>├── data
+>│	│
+>│   └── raw               <- The original, immutable data dump.
+>│
+>├── models                <- Trained and serialized models.
+>│
+>├── notebooks             <- Jupyter notebooks.
+>│
+>├── predictions           <- Outputs from predict pipeline.
+>│
+>├── reports               <- Report from training model.
+>│
+>├── src                   <- Source code for use in this project.
+>│	│
+>│   ├── __init__.py       <- Makes src a Python module
+>│   │
+>│   ├── entities          <- configuration dataclasses for type checking
+>│   │
+>│   ├── data              <- code to generate and transform data
+>│	│
+>│   ├── features          <- code to work with features
+>│   │
+>│   └── models            <- code to work with models
+>│
+>└── tests                 <- unit tests

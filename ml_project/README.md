@@ -1,27 +1,32 @@
 ## Data:
 
 Dataset "heart-disease-uci" is loaded from a kaggle competition
-
+<br>
+<br>
 ## Preresquistes:
 
 Python 3.7
 virtualenv (pip install virtualenv)
-
+<br>
+<br>
 ## Installation:
 
 pip install -r requirements.txt
-
+<br>
+<br>
 ## Usage:
 
 train: python train_pipeline.py configs/train_config.yaml
 <br>
+<br>
 predict: python predict_pipeline.py config/predict_config.yaml
-
+<br>
+<br>
 ## Testing:
 
 pylint --output-format=colorized -v src
-
-
+<br>
+<br>
 ## Roadmap:
 
 |  |Задание|Разбалловка|
@@ -44,8 +49,8 @@ pylint --output-format=colorized -v src
 <br>
 <br>
 По предложенной разбалловке получилось _29 баллов. Надеюсь, нигде не ошибся.
-
-
+<br>
+<br>
 Project structure
 │
 ├── README.md             <- The top-level README for developers using this project.

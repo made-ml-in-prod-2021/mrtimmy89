@@ -23,7 +23,7 @@ train: python train_pipeline.py configs/train_config.yaml
 predict: python predict_pipeline.py config/predict_config.yaml
 <br>
 <br>
-## Testing:
+## PEP-8 testing:
 
 pylint --output-format=colorized -v src
 <br>
@@ -53,7 +53,7 @@ pylint --output-format=colorized -v src
 <br>
 <br>
 
-## Project structure
+## Project structure:
 
 ```
 ├── README.md             <- The top-level README for developers using this project.

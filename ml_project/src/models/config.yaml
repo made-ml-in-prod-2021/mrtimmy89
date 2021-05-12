@@ -1,7 +1,0 @@
-defaults:
-  - model: rf
-
-
-hydra:
-  run:
-    dir: outputs/${now%Y-%n-%d-%H-%M-%S}

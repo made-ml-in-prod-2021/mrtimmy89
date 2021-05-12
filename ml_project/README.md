@@ -51,6 +51,7 @@ pylint --output-format=colorized -v src
 По предложенной разбалловке получилось 29 баллов. Надеюсь, нигде не ошибся.
 <br>
 <br>
+
 ## Project structure
 
 ```
@@ -73,7 +74,7 @@ pylint --output-format=colorized -v src
 ├── docs                  <- A default Sphinx project
 │
 ├── data
-│ 	│
+│ │
 │   └── raw               <- The original, immutable data dump.
 │
 ├── models                <- Trained and serialized models.
@@ -85,10 +86,10 @@ pylint --output-format=colorized -v src
 ├── reports               <- Report from training model.
 │
 ├── src                   <- Source code for use in this project.
-│	  │
-│   ├── __init__.py       <- Makes src a Python module
-│   │
-│   ├── entities          <- configuration dataclasses for type checking
+│	 │
+│  ├── __init__.py       <- Makes src a Python module
+│ │
+│ ├── entities          <- configuration dataclasses for type checking
 │   │
 │   ├── data              <- code to generate and transform data
 │	  │

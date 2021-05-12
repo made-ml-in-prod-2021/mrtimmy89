@@ -53,7 +53,7 @@ pylint --output-format=colorized -v src
 <br>
 ## Project structure
 <br>
-| | |
+| a| a|
 |--------------------------|------------------------------------------------------------|
 |│| |
 |├── README.md|             <- The top-level README for developers using this project.|

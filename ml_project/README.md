@@ -1,6 +1,6 @@
 ## Data:
 
-Dataset "heart-disease-uci" is loaded from a kaggle competition. It is available under the [link](https://www.kaggle.com/ronitf/heart-disease-uci).
+Dataset ["heart-disease-uci"](https://www.kaggle.com/ronitf/heart-disease-uci) is loaded from a kaggle competition.
 <br>
 <br>
 ## Preresquistes:

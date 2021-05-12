@@ -55,7 +55,7 @@ pylint --output-format=colorized -v src
 
 |||
 |--------------------------|------------------------------------------------------------|
-| &#124| |
+|U+0370| |
 <br>
 ├── README.md             <- The top-level README for developers using this project.
 │

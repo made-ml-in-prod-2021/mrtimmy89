@@ -52,13 +52,13 @@ pylint --output-format=colorized -v src
 <br>
 <br>
 Project structure
-<br>>│
-<br>>├── README.md             <- The top-level README for developers using this project.
-<br>>│
-<br>>├── requirements.txt      <- The requirements file for reproducing the analysis environment.
-<br>>│
-<br>>├── setup.py              <- File for install
-<br>>│
+<br><t>│
+<br><t>├── README.md             <- The top-level README for developers using this project.
+<br><t>│
+<br><t>├── requirements.txt      <- The requirements file for reproducing the analysis environment.
+<br><t>│
+<br><t>├── setup.py              <- File for install
+<br><t>│
 >├── data_generator.py  	  <- File for creating a synthetic dataset for test│
 >│
 >├── trani_pipeline.py     <- File for train_pipeline

@@ -1,3 +1,0 @@
-name: LogisticRegression
-params:
-  random_state: 42

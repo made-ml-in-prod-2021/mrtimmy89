@@ -1,6 +1,6 @@
 ## Data:
 
-Dataset "heart-disease-uci" is loaded from a kaggle competition
+Dataset "heart-disease-uci" is loaded from a kaggle competition. It is available under the [https://www.kaggle.com/ronitf/heart-disease-uci].
 <br>
 <br>
 ## Preresquistes:
@@ -55,7 +55,7 @@ pylint --output-format=colorized -v src
 
 |||
 |--------------------------|------------------------------------------------------------|
-|U+0370| |
+|\U+0370| |
 <br>
 ├── README.md             <- The top-level README for developers using this project.
 │

@@ -52,13 +52,13 @@ pylint --output-format=colorized -v src
 <br>
 <br>
 ## Project structure
-|||
+| | |
 |--------------------------|------------------------------------------------------------|
-|│||
+|│| |
 |├── README.md|             <- The top-level README for developers using this project.|
-|│||
+|│| |
 |├── requirements.txt|      <- The requirements file for reproducing the analysis environment.|
-|│
+|│| |
 |├── setup.py              <- File for install
 |│
 |├─ data_generator.py  	  <- File for creating a synthetic dataset for test│

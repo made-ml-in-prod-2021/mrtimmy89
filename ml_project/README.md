@@ -14,6 +14,7 @@ pip install -r requirements.txt
 ## Usage:
 
 train: python train_pipeline.py configs/train_config.yaml
+<br>
 predict: python predict_pipeline.py config/predict_config.yaml
 
 ## Testing:

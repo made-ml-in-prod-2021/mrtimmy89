@@ -43,7 +43,7 @@ pylint --output-format=colorized -v src
 |10.|Кастомный трансформер не сделан|+0|
 |11.|В readme записано, как учить модель|+3|
 |12.|В readme записано, как получить предикт модели|+3|
-|13.|Попытка использовать гидру, де-юре: применена, де-факто: в попытке совместить декоратор и pytest довел до состояния, в котором модуль бесполезен|+1 (за старание)|
+|13.|Попытка использовать гидру, де-юре: применена, де-факто: в попытке совместить декоратор и pytest довел до состояния, в котором модуль бесполезен|+1<br>(за старание)|
 |14.|CI не настроен|+0|
 |15.|Самооценка / самокопание / самоанализ|+1|
 <br>
@@ -51,6 +51,7 @@ pylint --output-format=colorized -v src
 По предложенной разбалловке получилось 29 баллов. Надеюсь, нигде не ошибся.
 <br>
 <br>
+
 | Plugin | README |
 | ------ | ------ |
 | Dropbox | [plugins/dropbox/README.md][PlDb] |
@@ -60,6 +61,7 @@ pylint --output-format=colorized -v src
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
+<br>
 <br>
 
 ├── README.md             <- The top-level README for developers using this project.

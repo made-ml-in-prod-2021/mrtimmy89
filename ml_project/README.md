@@ -60,10 +60,9 @@ pylint --output-format=colorized -v src
 <br>
 <br>
 
+```
 ├── README.md             <- The top-level README for developers using this project.
-
 │
-
 ├── requirements.txt      <- The requirements file for reproducing the analysis environment.
 │
 ├── setup.py              <- File for install
@@ -105,42 +104,4 @@ pylint --output-format=colorized -v src
 │   └── models            <- code to work with models
 |
 └── tests                 <- unit tests
-
-├───.idea
-│   └───inspectionProfiles
-├───.pytest_cache
-│   └───v
-│       └───cache
-├───configs
-├───data
-│   └───raw
-├───docs
-│   ├───build
-│   └───source
-│       ├───_static
-│       └───_templates
-├───models
-├───notebooks
-│   └───.ipynb_checkpoints
-├───predictions
-├───src
-│   ├───data
-│   │   └───__pycache__
-│   ├───entities
-│   │   └───__pycache__
-│   ├───features
-│   │   └───__pycache__
-│   ├───models
-│   │   ├───model
-│   │   └───__pycache__
-│   └───__pycache__
-├───tests
-│   ├───data
-│   │   └───__pycache__
-│   ├───features
-│   │   └───__pycache__
-│   ├───model
-│   │   └───__pycache__
-│   └───__pycache__
-└───__pycache__
-
+```

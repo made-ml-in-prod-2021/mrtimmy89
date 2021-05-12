@@ -1,27 +1,27 @@
-Data:
+## Data:
 
 Dataset "heart-disease-uci" is loaded from a kaggle competition
 
-Preresquistes:
+## Preresquistes:
 
 Python 3.7
 virtualenv (pip install virtualenv)
 
-Installation:
+## Installation:
 
 pip install -r requirements.txt
 
-Usage:
+## Usage:
 
 train: python train_pipeline.py configs/train_config.yaml
 predict: python predict_pipeline.py config/predict_config.yaml
 
-Testing:
+## Testing:
 
 pylint --output-format=colorized -v src
 
 
-
+## Roadmap:
 
 1. Создана ветка homework1 +1
 2. В описании к пулл реквесту описаны основные "архитектурные" и тактические решения, которые сделаны в вашей работе +2
@@ -40,7 +40,6 @@ pylint --output-format=colorized -v src
 15. Самооценка / самокопание / самоанализ +1
 
 По предложенной разбалловке получилось 29 баллов. Надеюсь, нигде не ошибся.
-
 
 
 Project structure

@@ -51,14 +51,7 @@ pylint --output-format=colorized -v src
 По предложенной разбалловке получилось 29 баллов. Надеюсь, нигде не ошибся.
 <br>
 <br>
-
-> ├── README.md  [plugins/dropbox/README.md][PlDb] 
-> │
-> ├── requirements.txt | [plugins/googledrive/README.md][PlGd] |
-> │ 
-
-<br>
-<br>
+## Project structure
 
 ```
 ├── README.md             <- The top-level README for developers using this project.

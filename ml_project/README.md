@@ -74,7 +74,7 @@ pylint --output-format=colorized -v src
 ├── docs                  <- A default Sphinx project
 │
 ├── data
-│ │
+│   │
 │   └── raw               <- The original, immutable data dump.
 │
 ├── models                <- Trained and serialized models.
@@ -92,7 +92,7 @@ pylint --output-format=colorized -v src
 │   ├── entities          <- configuration dataclasses for type checking
 │   │
 │   ├── data              <- code to generate and transform data
-│	  │
+│   │
 │   ├── features          <- code to work with features
 │   │
 │   └── models            <- code to work with models

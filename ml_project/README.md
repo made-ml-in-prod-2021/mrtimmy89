@@ -30,7 +30,7 @@ pylint --output-format=colorized -v src
 ## Roadmap:
 
 |  |Задание|Разбалловка|
-|---|------------------------------------------------------------------------------------------------------------------|:--------:|
+|---|-------------------------------------------------------------------------------------------------------------|:-------------:|
 |1.|Создана ветка homework1|+1|
 |2.|В описании к пулл реквесту описаны основные "архитектурные" и тактические решения, которые сделаны в вашей работе|+2|
 |3.|EDA выполнен и закоммичен|+2|
@@ -53,10 +53,10 @@ pylint --output-format=colorized -v src
 <br>
 
 | Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| -------------------------------------- | --------------------------------------- |
+| ├── README.md | [plugins/dropbox/README.md][PlDb] |
 | GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| ├── requirements.txt | [plugins/googledrive/README.md][PlGd] |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |

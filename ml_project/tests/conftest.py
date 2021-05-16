@@ -61,26 +61,3 @@ def feature_params(
 @pytest.fixture(scope="session")
 def conf_path():
     return CONF_PATH
-
-
-
-
-'''
-@pytest.fixture(scope='session')
-def training_params():
-    params = TrainingParams(
-        model_type="RandomForestClassifier",
-        n_estimators=100,
-        random_state=42,
-    )
-    return params
-
-
-@pytest.fixture(scope='session')
-def splitting_params():
-    params = SplittingParams(
-        val_size=0.2,
-        random_state=42,
-    )
-    return params
-'''

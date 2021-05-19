@@ -1,9 +1,65 @@
+## The docker image optimization:
+<br>
+The optimization has been done with python:3.8-slim  which caused the reduction of the Image size from 1,4 Gb to 628,57 Mb
+<br>
+<br>
+
+## Running from docker hub:
+<br>
+docker pull mrtimmy89/mlops2
+<br>
+<br>
+
+## Running from the CLI:
+<br>
+uvicorn app:app --reload
+<br>
+<br>
+
+## Requests are made the following way:
+<br>
+python make_request.py
+<br>
+<br>
+
+## Covering with tests and pylint:
+<br>
+pylint
+<br>
+pytest -v
+<br>
+<br>
+
+## Roadmap:
+
+|  |Задание|Разбалловка|
+|---|-------------------------------------------------------------------------------------------------------------|:-------------:|
+|0.|Созданы ветка homework2 и папка online_inference|-|
+|1.|inference модели "обернут" в rest сервис с использованием FastAPI|+3|
+|2.|Написан тест для /predict|+3|
+|3.|Написан скрипт, который может делать запросы к сервису |+2|
+|4.|Валидация не делалась|+0|
+|5.|Написан dockerfile, на его основе собран образ|+4|
+|6.|Размер docker image оптимизирован|+3|
+|7.|Образ опубликован в https://hub.docker.com/|+2|
+|8.|В readme написаны корректные команды docker pull/run|+1|
+|9.|Проведена самооценка|+1|
+<br>
+<br>
+По предложенной разбалловке получилось 19 баллов.
+<br>
+<br>
+
 ## Project structure:
 
 ```
 ├── README.md             <- The top-level README for developers using this project.
 │
 ├── requirements.txt      <- The requirements file for reproducing the analysis environment.
+│
+├── Dockerfile            <- The Docker Image.
+│
+├── setup.py              <- File for installation.
 │
 ├── app.py 	              <- FastAPI application
 │

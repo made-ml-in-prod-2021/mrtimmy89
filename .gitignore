@@ -1,0 +1,9 @@
+.idea/
+.pytest_cache/
+
+venv/
+src/data/__pycache__/
+src/entities/__pycache__/
+src/features/__pycache__/
+src/models/__pycache__/
+tests/__pycache__/

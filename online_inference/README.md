@@ -8,6 +8,8 @@ The optimization has been done with python:3.8-slim  which caused the reduction 
 <br>
 docker pull mrtimmy89/mlops2
 <br>
+docker run -p 80:80 mrtimmy89/mlops2 (for example, without giving a name)
+<br>
 <br>
 
 ## Running from the CLI:

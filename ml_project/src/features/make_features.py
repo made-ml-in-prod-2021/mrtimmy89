@@ -47,7 +47,7 @@ def label_features(df: pd.DataFrame) -> Tuple[List, List]:
 
 def dataset_scale(
         df: pd.DataFrame,
-        num_features: FeatureParams
+        num_features: List
 ) -> pd.DataFrame:
     """
     Scales given dataset features
@@ -63,7 +63,7 @@ def dataset_scale(
 
 def one_hot_encode(
         df: pd.DataFrame,
-        cat_features: FeatureParams
+        cat_features: List
 ) -> pd.DataFrame:
     """
     Performs one-hot encoding
@@ -77,7 +77,7 @@ def one_hot_encode(
     return one_hot_encoded
 
 
-def full_transform(df: pd.DataFrame) -> None:
+def full_transform(df: pd.DataFrame) -> pd.DataFrame:
     """
     Represents the combination of all functions listed in this module
     :param df:

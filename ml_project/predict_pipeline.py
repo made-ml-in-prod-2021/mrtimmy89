@@ -12,7 +12,7 @@ from src.features.make_features import full_transform
 from src.models.fit_predict_model import predict_model
 from src.models.model_dump import load_model
 
-from src.entities.predict_pipeline_parameters import read_predict_pipeline_params
+from src.entities.predict_pipeline_parameters import read_predict_pipeline_params, PredictingPipelineParams
 
 logger = logging.getLogger(__name__)
 handler = logging.StreamHandler(sys.stdout)
@@ -30,7 +30,7 @@ def predict_pipeline(config_path: str):
     return predict_pipeline_run(predict_pipeline_params)
 
 
-def predict_pipeline_run(predict_pipeline_params):
+def predict_pipeline_run(predict_pipeline_params: PredictingPipelineParams) -> None:
     """
     The pipeline itself
     :param predict_pipeline_params:

@@ -1,0 +1,3 @@
+dataset_path: "data/raw/heart.csv"
+dump_model: "models/model.pkl"
+prediction_path: "predictions/predict.csv"

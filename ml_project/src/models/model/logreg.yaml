@@ -1,0 +1,4 @@
+model:
+  name: lr
+  params:
+    random_state: 42

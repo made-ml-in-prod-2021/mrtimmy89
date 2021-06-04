@@ -4,7 +4,7 @@
 - 0: data generation pipeline 
 - 1: training on given data by means of data transformation (via StandardScaler), splitting into train and validation datasets, training a model (LogisticRegression) 
 and then evaluating the model with some metrics
-- 2: prediction pipeline (for its successful work the directory "input" containing the input.csv file should be created in the "data" directory)<br>
+- 2: prediction pipeline (for its successful work the directory "input" containing the input.csv file should be created in the "data" directory)<br><br>
 All the DAGs are stored in the form of Docker images.
 <br><br>
 ## Correct run<br>

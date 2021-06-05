@@ -16,7 +16,7 @@ def train_model(train_path: str, model_path: str) -> None:
     :param model_path:
     :return:
     """
-    model = LogisticRegression(max_iter=1000)
+    model = LogisticRegression(random_state=13, max_iter=1000)
     dataframe = pd.read_csv(os.path.join(train_path, "train.csv"), index_col=0)
     y_train = dataframe.target.values
     X_train = dataframe.drop(["target"], axis=1).values

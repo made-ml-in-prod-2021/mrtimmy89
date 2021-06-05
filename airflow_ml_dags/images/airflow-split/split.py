@@ -16,7 +16,7 @@ def split(preprocessed_path: str, splitted_path: str):
     :return:
     """
     dataframe = pd.read_csv(os.path.join(preprocessed_path, "dataframe.csv"), index_col=0)
-    train, val = train_test_split(dataframe)
+    train, val = train_test_split(dataframe, random_state=13)
 
     os.makedirs(splitted_path, exist_ok=True)
     train.to_csv(os.path.join(splitted_path, "train.csv"))

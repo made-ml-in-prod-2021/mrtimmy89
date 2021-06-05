@@ -11,7 +11,7 @@ All the DAGs are stored in the form of Docker images.
 docker-compose up --build
 <br><br>
 ## Correct stop<br>
-Ctrl + C
+Ctrl + C<br>
 docker-compose down
 <br><br>
 ## Covering with tests:<br>

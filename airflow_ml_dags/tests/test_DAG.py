@@ -20,7 +20,7 @@ def test_generate_pipeline(dag_bag):
     for dag, task in dags_.task_dict.items():
         assert set(structure[dag]) == task.downstream_task_ids
 
-start >> load >> preprocess >> split >> train >> validate >> [check_scaler, check_model, check_metrics] >> finish
+        
 def test_train_pipeline(dag_bag):
     structure = {
         "start": ["load"],
